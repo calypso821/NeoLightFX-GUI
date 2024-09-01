@@ -95,7 +95,7 @@ class LEDRemoteGUI(QMainWindow):
         effects_group.setLayout(effects_layout)
 
         self.effect_combo = QComboBox()
-        self.effect_combo.addItems(["RAINBOW", "PROGRESS"])
+        self.effect_combo.addItems(["RAINBOW", "PROGRESS", "PROGRESS2"])
         self.effect_combo.setFixedWidth(100)  # Reduce width of the dropdown to match input size
         effects_layout.addWidget(self.effect_combo)
 
